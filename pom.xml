@@ -3,7 +3,7 @@
   <groupId>net.helpscout</groupId>
   <artifactId>helpscout-api</artifactId>
   <packaging>jar</packaging>
-  <version>1.5.0</version>
+  <version>1.5.1-TelintelFork</version>
   <name>helpscout-api</name>
   <url>http://maven.apache.org</url>
 

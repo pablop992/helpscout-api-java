@@ -12,8 +12,8 @@ import net.helpscout.api.model.Customer;
 import org.apache.commons.codec.binary.Base64;
 
 final public class Webhook {        
-    private final String secretKey; 
-    private final HttpServletRequest request;
+    private String secretKey; 
+    private HttpServletRequest request;
             
     private String inputStr = null;
     
@@ -141,4 +141,22 @@ final public class Webhook {
         }
         return jb.toString();
     }
+
+	public String getSecretKey() {
+		return secretKey;
+	}
+
+	public void setSecretKey(String secretKey) {
+		this.secretKey = secretKey;
+	}
+
+	public HttpServletRequest getRequest() {
+		return request;
+	}
+
+	public void setRequest(HttpServletRequest request) {
+		this.request = request;
+	}
+    
+    
 }
